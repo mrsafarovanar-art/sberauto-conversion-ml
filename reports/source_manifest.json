@@ -1,0 +1,12 @@
+[
+  {
+    "path": "ga_hits-002.csv",
+    "bytes": 4266520100,
+    "sha256": "fef9275bc2b7bc026e5e82ced3af79b2068de500e70e8904fe3189702b52b39a"
+  },
+  {
+    "path": "skillbox_diploma_main_dataset_sberautopodpiska/ga_sessions.csv",
+    "bytes": 388066338,
+    "sha256": "a142ade187c9b192d58d8bfdcfbb3eb1411887481e01c633c974b289d413300b"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "december_rows": 366245,
+  "independent_rank_sum_auc": 0.5821037141160269,
+  "confusion_matrix": [
+    [
+      333053,
+      25893
+    ],
+    [
+      6362,
+      937
+    ]
+  ],
+  "frozen_model_hash_matches": true,
+  "selected_by_november_only": true,
+  "december_membership_and_targets_match_source": true,
+  "class_weights_match_train_only": true
+}

@@ -1,0 +1,21 @@
+{
+  "url": "http://127.0.0.1:8037",
+  "warmup_requests": 5,
+  "sequential": {
+    "requests": 100,
+    "mean_ms": 5.564318418619223,
+    "p50_ms": 5.397104017902166,
+    "p95_ms": 6.476950278738514,
+    "max_ms": 7.065291982144117
+  },
+  "concurrent_8_clients": {
+    "requests": 100,
+    "mean_ms": 37.83881499548443,
+    "p50_ms": 38.43233297811821,
+    "p95_ms": 40.29588151315693,
+    "max_ms": 41.0924160387367
+  },
+  "concurrent_requests_per_second": 206.39664481923484,
+  "scope": "local HTTP, loaded model, one server worker; excludes cold start and external network",
+  "mean_under_3_seconds": true
+}

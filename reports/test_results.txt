@@ -1,0 +1,20 @@
+<python-environment>/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_date_boundaries (test_temporal.TemporalTests.test_date_boundaries) ... ok
+test_randomized_search_explicit_fold (test_temporal.TemporalTests.test_randomized_search_explicit_fold) ... ok
+test_recall_policy (test_temporal.TemporalTests.test_recall_policy) ... ok
+test_target_and_dates_never_enter_features (test_temporal.TemporalTests.test_target_and_dates_never_enter_features) ... ok
+test_weight_odds_inverse_and_endpoints (test_temporal.TemporalTests.test_weight_odds_inverse_and_endpoints) ... ok
+test_batch_parity_and_limits (test_service.ServiceTests.test_batch_parity_and_limits) ... ok
+test_binary_and_probability_agree (test_service.ServiceTests.test_binary_and_probability_agree) ... ok
+test_both_prediction_classes (test_service.ServiceTests.test_both_prediction_classes) ... ok
+test_feature_order_and_uninformative_device_model (test_service.ServiceTests.test_feature_order_and_uninformative_device_model) ... ok
+test_health (test_service.ServiceTests.test_health) ... ok
+test_invalid_payloads (test_service.ServiceTests.test_invalid_payloads) ... ok
+test_missing_and_unknown_categories (test_service.ServiceTests.test_missing_and_unknown_categories) ... ok
+test_training_inference_parity (test_service.ServiceTests.test_training_inference_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.152s
+
+OK

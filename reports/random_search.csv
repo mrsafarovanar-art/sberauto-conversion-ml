@@ -1,0 +1,7 @@
+params,validation_roc_auc,validation_ap,fit_seconds
+"{""depth"": 6, ""iterations"": 200, ""l2_leaf_reg"": 3, ""learning_rate"": 0.12, ""random_strength"": 1.5}",0.5997654396190935,0.03690474996060923,31.668985843658447
+"{""depth"": 4, ""iterations"": 200, ""l2_leaf_reg"": 7, ""learning_rate"": 0.12, ""random_strength"": 0.5}",0.5963299804217501,0.03373036030462776,22.476172924041748
+"{""depth"": 4, ""iterations"": 200, ""l2_leaf_reg"": 3, ""learning_rate"": 0.12, ""random_strength"": 0.5}",0.593382170937639,0.03330755331503584,22.321961879730225
+"{""depth"": 6, ""iterations"": 200, ""l2_leaf_reg"": 7, ""learning_rate"": 0.12, ""random_strength"": 1.5}",0.598520956632903,0.03529818154376774,32.127320766448975
+"{""depth"": 5, ""iterations"": 350, ""l2_leaf_reg"": 7, ""learning_rate"": 0.08, ""random_strength"": 0.5}",0.5947607145627132,0.03395516750931865,50.35183000564575
+"{""depth"": 5, ""iterations"": 350, ""l2_leaf_reg"": 12, ""learning_rate"": 0.04, ""random_strength"": 1.5}",0.5804393439493507,0.0330423831430407,44.21621513366699
