@@ -1,0 +1,63 @@
+{
+  "model_type": "CatBoostClassifier",
+  "selected_model": "tuned_sqrt_balanced",
+  "threshold": 0.04579872999909627,
+  "positive_class_weight": 5.397985885507313,
+  "probability_adjustment": "inverse class-weight odds; not fitted calibration",
+  "threshold_rule": "maximum F1 on November",
+  "split_method": "train May-Oct; validation November; test December 2021",
+  "input_features": [
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_adcontent",
+    "utm_keyword",
+    "device_category",
+    "device_os",
+    "device_brand",
+    "device_model",
+    "device_screen_resolution",
+    "device_browser",
+    "geo_country",
+    "geo_city"
+  ],
+  "categorical_features": [
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_adcontent",
+    "utm_keyword",
+    "device_category",
+    "device_os",
+    "device_brand",
+    "device_screen_resolution",
+    "device_browser",
+    "geo_country",
+    "geo_city"
+  ],
+  "numeric_features": [
+    "screen_width",
+    "screen_height",
+    "screen_ratio",
+    "screen_missing",
+    "is_organic",
+    "is_social",
+    "utm_missing_count",
+    "device_missing_count"
+  ],
+  "target_actions": [
+    "sub_car_claim_click",
+    "sub_car_claim_submit_click",
+    "sub_open_dialog_click",
+    "sub_custom_question_submit_click",
+    "sub_call_number_click",
+    "sub_callback_submit_click",
+    "sub_submit_success",
+    "sub_car_request_submit_click"
+  ],
+  "fit_population": "May-Oct 2021 only",
+  "validation_period": "November 2021",
+  "test_period": "December 2021",
+  "seed": 42,
+  "tree_count": 174
+}
